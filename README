@@ -2,22 +2,6 @@
 
 15/1/2013: Assignment2:
 -1:Write SQL to create a table named Tables contains table_id, table_name, table_status
-Create database demo
-use demo
-go
-create table new_tables
-(
-Table_ID int primary key not null,
-Table_name varchar(45)null,
-Table_status varchar(45)null,
-)
-go
-insert into Tables values (1,'Table 1','Available',)
-insert into Tables values (2,'Table 2','Busy')
-)
-
-select * from new_table
-go
 -2:Use JDBC to get data from Tables and display:
 Table ID | Table Name | Table status |
 -----------------------------------------------
